@@ -4,6 +4,7 @@ jobs:
   my-testing:
       runs-on: ubuntu-latest
       steps:
+        - run: git clone
         - name: Print Hello Message
           run: make say-hello
         
